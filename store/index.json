@@ -901,3 +901,21 @@
     	"invert": true
   }
 }]
+{
+  "name": “teams”, // unique name (check if it has been used already in the file)
+  "icon": "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/wuhyxjwpfisneh7yxluh", // logo image, preferrably 1:1 and less than 128px of width
+  "type": “app”, // game or app
+  "data": {
+    "type": "IFrame", // type currently supports IFrame only
+    "url": "https://teams.live.com/free", // url of the app and make sure they accept Iframe
+    "gallery": [
+      // three or more images for gallery view in store app
+      "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/h0kyoimfxeoaqtvwvgkq",
+      "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/nknugzdpjd4yhbckdvqj",
+      "https://res.cloudinary.com/dtz0urit6/image/upload/q_auto:best,f_jpg/cloudinary-tools-uploads/cylk7jbh47q1h6giljv3"
+    ],
+    "desc": “meeting and chatting app” , // description for store app
+    "feat": "1.1 Combat changes.\n1.2 Fletching table functionality.", // features for store app
+    "invert": true // when true it forces dark theme for game/app window, default is false.
+  }
+}
